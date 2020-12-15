@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="home">
       <div className="home__container">
-        <img src="coverr.jpg" alt="amazon cover page" className="home__image" />
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2020/X-site/Multititle/Nov/1500x600_Hero-Tall_np._CB416108473_.jpg" alt="amazon cover page" className="home__image" />
         <div className="home__row">
           <Product
             title="Samsung Galaxy A51 (Blue, 6GB RAM, 128GB Storage)"
@@ -73,7 +73,7 @@ function Home() {
             image="https://images-na.ssl-images-amazon.com/images/I/61JlllBcGpL._SL1390_.jpg"
           />
         </div>
-        <img src="https://m.media-amazon.com/images/G/31/AMS/IN/970X250-_desktop_banner.jpg" />
+        <img className="banner__image" src="https://m.media-amazon.com/images/G/31/AMS/IN/970X250-_desktop_banner.jpg" />
         <div className="home__row">
           <Product
             title="Alpino Natural Peanut Butter Crunch 1 KG | Unsweetened | Made with 100% Roasted Peanuts | No Added Sugar"
