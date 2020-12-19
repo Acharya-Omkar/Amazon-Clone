@@ -23,7 +23,7 @@ app.post("/payment/create", async (request, response) => {
   console.log('payemt recieved BOOMMM!!!', total);
   const paymentIntent = await stripe.paymentIntents.create({
     amount: total,
-    currency: "rupee",
+    currency: "inr",
   });
 
   response.status(201).send({
